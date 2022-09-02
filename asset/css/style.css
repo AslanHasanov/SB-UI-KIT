@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Blinker', sans-serif;
 }
 header{
     display: flex;
@@ -48,6 +49,21 @@ padding-right: 4rem;
     background-position: center;
     text-align: center;
     padding: 15rem 0;
+    clip-path: polygon(0 1%, 100% 0, 100% 20%, 100% 80%, 82% 93%, 18% 92%, 0% 80%, 0% 20%);
+
+}
+.slide{
+    position: relative;
+}
+#slider::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(229 222 217 / 80%);
+    z-index: -1 ;
 }
 #slider h1{
     color: #000000;
@@ -179,6 +195,20 @@ padding-right: 4rem;
     background-position: center;
     background-size: cover;
     padding:15rem 0;
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);
+}
+.aval{
+    position: relative;
+}
+#availabiltiy::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(229 222 217 / 80%);
+    z-index: -1 ;
 }
 #availabiltiy h1{
     font-size: 57px;
@@ -281,5 +311,9 @@ margin-right: 10rem;
     .foot a{
         color: #69707a;
         font-size: 13px;
+    }
+    #right{
+        border-right: 1px solid black;
+        
     }
     
