@@ -167,10 +167,8 @@ padding-right: 4rem;
 .base .second li{
     padding-left:2.5rem;
     border: 1px solid #363d47;
-    /* border-top-left-radius: calc(0.35rem - 1px);
-    border-top-right-radius: calc(0.35rem - 1px); */
-    padding-top: 1.5rem !important;
-    padding-bottom: 1.5rem !important;
+    padding-top: 1.5rem ;
+    padding-bottom: 1.5rem ;
    
     font-size: 17px;
 }
@@ -191,16 +189,19 @@ padding-right: 4rem;
 
 
 #availabiltiy{
+ 
+}
+.aval{
     background-image: url(..//images/photo-1533090161767-e6ffed986c88.jpg);
     background-position: center;
     background-size: cover;
     padding:15rem 0;
     clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);
-}
-.aval{
     position: relative;
+    z-index: 1;
 }
-#availabiltiy::before{
+
+.aval::before{
     content: '';
     position: absolute;
     top: 0;
@@ -209,6 +210,7 @@ padding-right: 4rem;
     height: 100%;
     background-color: rgb(229 222 217 / 80%);
     z-index: -1 ;
+    opacity: 0.8;
 }
 #availabiltiy h1{
     font-size: 57px;
