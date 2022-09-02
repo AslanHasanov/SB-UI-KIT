@@ -184,8 +184,102 @@ padding-right: 4rem;
     font-size: 57px;
     color: #212832;
     padding-left: 8rem;
+    padding-bottom: 30px;
 }
 #availabiltiy a{
-    padding-left: 8rem;
+    margin-left: 8rem;
     font-size: 16px;
+    color: #fff;
+    background-color: #0d6efd;
+    padding: 15px 1.5rem;
+    border: 1px solid #0d6efd;
+    border-radius: 5px;
 }
+.parts{
+    display: flex;
+
+}
+.parts .box{
+    padding: 4rem 0;
+}
+.parts .content {
+margin-left: 7rem;
+margin-right: 10rem;
+}
+.content i{
+    color: orange;
+    font-size: large;
+    padding-bottom: 20px;
+}
+.content h4{
+    font-size: 23px;
+    color: #0061f2 ;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.name{
+    font-size: 17px;
+    font-weight: bold;
+    color: #69707a;
+}
+    .content .name2{
+    font-size: 17px;
+    font-weight: lighter;
+    color: #69707a;
+    }
+    .last{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 4rem 7rem;
+    }
+    .last .box{
+        width: 18%;
+        line-height: 1rem;
+    }
+    .last h1{
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        color: #69707a;
+    }
+    .last h3{
+    font-weight: 700;
+    letter-spacing: 0.125em;
+    font-size: .75rem;
+    color: #69707a;
+    padding-bottom: 1rem;
+    }
+    .last a{
+        color: #69707a;
+        text-decoration: none;
+        transition: .7s;
+        padding-bottom: .5rem;
+        font-size: 15px;
+        display: block;
+    }
+    .last a:hover{
+        text-decoration: underline;
+    }
+    .last p{
+        color: #69707a;
+        padding-bottom: 1rem;
+    }
+    .icons a{
+        display: inline-block;
+        font-size: 20px;
+        padding-right: .1rem;
+    }
+    .foot{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 8rem;
+    }
+    .foot p{
+        color: #69707a;
+        font-size: 13px;
+    }
+    .foot a{
+        color: #69707a;
+        font-size: 13px;
+    }
+    
