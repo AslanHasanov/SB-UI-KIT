@@ -314,8 +314,16 @@ margin-right: 10rem;
         color: #69707a;
         font-size: 13px;
     }
-    #right{
-        border-right: 1px solid black;
-        
+    .parts{
+        position: relative;
     }
+   .layout::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width: 2px;
+    height: 70%;
+    background-color: #69707a;
+   }
     
